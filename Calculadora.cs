@@ -12,6 +12,17 @@ public class Calculadora
         valor+=sumando;
     }
 
+    public void Restar(double restando){
+
+    }
+
+    public void Multiplicar(double multiplicando){
+        
+    }
+
+    public void Dividir(double valor){
+        
+    }
     public double Resultado { get => valor; }
 }
 
