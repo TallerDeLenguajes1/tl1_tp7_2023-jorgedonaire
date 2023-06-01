@@ -1,0 +1,2 @@
+Investigue qué función cumple el parámetro –output y que consecuencias trae llamarlo de la manera indicada.
+Crea la aplicacion en la misma carpeta donde nos encontramos trabajando, es decir, no crea una nueva carpeta. El valor determinado es el directorio actual
