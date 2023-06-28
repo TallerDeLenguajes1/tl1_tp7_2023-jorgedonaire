@@ -35,10 +35,10 @@ public class Empleado
 
     }
 
-    public Empleado(string apellido, string nombre, DateTime fechaDeNacimiento, char estadoCivil, char genero, DateTime fechaIngreso, double sueldoBasico, cargos cargo)
+    public Empleado( string nombre, string apellido, DateTime fechaDeNacimiento, char estadoCivil, char genero, DateTime fechaIngreso, double sueldoBasico, cargos cargo)
     {
-        this.Apellido = apellido;
         this.Nombre = nombre;
+        this.Apellido = apellido;
         this.FechaDeNacimiento = fechaDeNacimiento;
         this.EstadoCivil = estadoCivil;
         this.Genero = genero;
