@@ -3,7 +3,7 @@ using EspacioCalculadora;
 Console.WriteLine("***** CALCULADORA *******");
 Calculadora miCalculadora = new Calculadora();
 int menu;
-double num,num1,num2,valor;
+double num;
 bool controlNum;
 
 do
