@@ -67,12 +67,12 @@ public class Empleado
     }
 
     public double Salario(){
-        double Adicional = 0;
+        double Adicional;
         int antiguedad = Antiguedad();
 
         if (antiguedad <= 20)
         {
-            Adicional = antiguedad * SueldoBasico * 1.01;
+            Adicional = (SueldoBasico * antiguedad)/100;
         }else
         {
             Adicional = SueldoBasico * 1.25;
@@ -80,10 +80,10 @@ public class Empleado
 
         if (Cargo == cargos.Ingeniero || Cargo == cargos.Especialista)
         {
-            Adicional += SueldoBasico * 1.5;
+            Adicional *= 1.5;
         }
 
-        if (estadoCivil == 'c')
+        if (estadoCivil == 'C')
         {
             Adicional += 15000;
         }
